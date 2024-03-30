@@ -1,0 +1,67 @@
+[22-Nov-2023 19:41:18 Europe/Lisbon] Array
+(
+    [0] => Array
+        (
+            [quantity] => 1
+            [price_data] => Array
+                (
+                    [currency] => eur
+                    [unit_amount] => 1495
+                    [product_data] => Array
+                        (
+                            [name] => 1 Google Review Cards
+                            [description] => Elevate your feedbac
+                            [images] => https://tapgotech.com/assets/img/products/1_cartao_google.webp
+                        )
+
+                )
+
+        )
+
+)
+
+[22-Nov-2023 19:41:26 Europe/Lisbon] Array
+(
+    [0] => Array
+        (
+            [quantity] => 1
+            [price_data] => Array
+                (
+                    [currency] => eur
+                    [unit_amount] => 1495
+                    [product_data] => Array
+                        (
+                            [name] => 1 Google Review Cards
+                            [description] => Elevate your feedbac
+                            [images] => https://tapgotech.com/assets/img/products/1_cartao_google.webp
+                        )
+
+                )
+
+        )
+
+)
+
+[22-Nov-2023 19:41:46 Europe/Lisbon] Array
+(
+    [0] => Array
+        (
+            [quantity] => 1
+            [price_data] => Array
+                (
+                    [currency] => eur
+                    [unit_amount] => 1495
+                    [product_data] => Array
+                        (
+                            [name] => 1 Google Review Cards
+                            [description] => Elevate your feedbac
+                            [images] => https://tapgotech.com/assets/img/products/1_cartao_google.webp
+                        )
+
+                )
+
+        )
+
+)
+
+[22-Nov-2023 22:01:42 Europe/Lisbon] Stripe Notice: Undefined property of Stripe\Checkout\Session instance: line_items
