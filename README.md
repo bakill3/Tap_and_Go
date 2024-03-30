@@ -2,62 +2,52 @@
 
 ## Introduction
 
-Tap&Go leverages Near Field Communication (NFC) to enhance customer interaction with businesses. This innovative system enables instant feedback, providing a seamless review process and valuable customer insights through a comprehensive dashboard. With additional features like the cocktail recommendation quiz and social media discounts, Tap&Go offers a multifaceted platform to improve customer experience and business visibility.
+Tap&Go integrates Near Field Communication (NFC) technology to enrich the customer-business interaction. This innovative system empowers businesses with instant customer feedback directly through Google Maps and TripAdvisor. By tapping an NFC-enabled Tap&Go card, customers are directed to review platforms while the system captures crucial data such as IP, operating system, and location, available via a control panel for business owners. The Tap&Go solution is designed for speed, SEO optimization, exceptional design, and robust performance.
 
-## Comprehensive Features
+## Key Features
 
-- **NFC Feedback System**: Customers can leave instant reviews for businesses on Google Maps and TripAdvisor by tapping an NFC-enabled Tap&Go card.
-- **Interactive Dashboard**: Business owners can log in to a personalized dashboard to view data analytics, track card usage, and monitor reviews.
-- **Customizable Digital Presence**: Tap&Go allows for real-time customization of the landing page image for each establishment's review link.
-- **Kahoot-Style Cocktail Quiz**: An engaging quiz on customer devices helps them choose their preferred cocktail characteristics, with the results sent directly to the bartender.
-- **Dynamic Drink Rating System**: After enjoying their custom cocktail, customers rate their drink, influencing the establishment's live drink rating board.
-- **Social Media Discount Integration**: Customers can earn discounts by sharing their experience on Instagram, with a Tap&Go bot verifying posts and notifying both the customer and the business owner.
+- **NFC Feedback System**: A tap from an NFC card allows customers to quickly leave reviews.
+- **Valuable Insights**: The control panel provides business owners with real-time data analytics.
+- **Customizable Landing Page**: Owners can modify the loading page connected to their review link for brand consistency.
+- **Cocktail Recommendation System**: An interactive feature enhancing the pub experience with personalized cocktail suggestions.
+- **Instagram Discount Offers**: A social media integration that provides discounts for customer shares, automated for efficiency.
 
-## Dashboard Access and Personalization
+## Project Journey
 
-Each business that integrates Tap&Go will have exclusive access to:
+The Tap&Go project was conceived and developed over a six-month period, with a significant 46-day coding sprint. My role in this journey was comprehensive, involving:
 
-- **Real-Time Analytics**: Monitor NFC card taps, review frequency, and detailed customer demographics.
-- **Image Customization**: Update the visual content associated with NFC card links to ensure brand consistency.
-- **Notification System**: Receive alerts for customer interactions, such as quiz completions and social media shares.
-
-## Innovative Cocktail Experience
-
-The cocktail quiz transforms the traditional bar experience by offering:
-
-- **Custom Recommendations**: Patrons enjoy a tailored experience by selecting their preferences through a simple interface.
-- **Instant Notifications**: Staff receive immediate order details, allowing for efficient and personalized service.
-- **Customer Engagement**: The interactive nature of the quiz adds a playful element to the establishment's ambiance.
-
-## Social Media Engagement
-
-This upcoming feature is designed to:
-
-- **Incentivize Shares**: Encourage customers to promote the establishment on their social media in exchange for discounts.
-- **Automate Verification**: Use Tap&Go's proprietary Instagram bot to validate the promotion and apply discounts.
+- **Technical Development**: Building the core NFC feedback system, user dashboard, and integration with Google Maps and TripAdvisor.
+- **Content Creation**: Managing video and image editing, ensuring high-quality promotional content across various platforms.
+- **Marketing and Strategy**: Executing marketing plans and coordinating teams through Fiverr and Upwork to maximize the platform's reach.
 
 ## Technical Specifications
 
-- **Frontend Development**: Crafted with HTML5, CSS3, JavaScript, and jQuery.
-- **Backend Development**: Powered by PHP and a MySQL database, managed via PHPMyAdmin.
-- **Responsive Design**: Implemented with Bootstrap 5 to ensure a consistent experience across all devices.
-- **Search Engine Optimization**: Configured following the latest SEO guidelines for maximum online exposure.
+- **Frontend**: HTML5, CSS3, JavaScript, jQuery for a dynamic user experience.
+- **Backend**: PHP, MySQL database, with PHPMyAdmin for database management.
+- **Responsive Design**: Bootstrap 5 ensures adaptability to all devices.
+- **SEO**: Configured to the latest guidelines to maximize online presence.
 
 ## Setup and Configuration
 
-1. Clone the repository to your local machine or hosting environment.
-2. Import the SQL schema into your MySQL database using PHPMyAdmin.
-3. Configure your server environment and database connection in `ligar_db.php`.
-4. Replace Stripe API Key.
-5. Use info@tapgotech.com & “admin” to login via Dashboard.
-6. Launch Tap&Go to start engaging with customers and collecting valuable feedback.
+1. **Clone the repository** to your local machine or server.
+2. **Import the SQL schema** into your MySQL database via PHPMyAdmin.
+3. **Configure the server and database** connections in `ligar_db.php`.
+4. **Insert the Stripe API Key** for transaction processing.
+5. **Access the dashboard** using provided credentials `info@tapgotech.com` & `admin`.
 
 ## Licensing
 
-The Tap&Go system and associated intellectual property are proprietary. Usage and distribution are subject to licensing agreements and restrictions. Please contact [info@tapgotech.com](mailto:info@tapgotech.com) for licensing inquiries.
+Tap&Go's system and associated intellectual property are proprietary. For licensing details, please contact us.
 
-## Contact Us
+## Contact Information
 
-For support, licensing, or further information about implementing Tap&Go in your business, please reach out to us via email at [info@tapgotech.com](mailto:info@tapgotech.com).
+For support, implementation details, or additional information about Tap&Go, please reach out via email at `info@tapgotech.com`.
 
-## This project is currently closed
+## Project Status
+
+> **Note**: The Tap&Go project is currently not active, as I am working for a company. This repository serves as an archive and resource for the accomplishments and learnings gathered during its active development phase.
+
+<!-- Footer content with developer information -->
+
+Developed by Gabriel Brandão - [GitHub](https://www.github.com/bakill3)
+2023 All rights reserved.
