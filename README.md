@@ -52,23 +52,12 @@ This upcoming feature is designed to:
 5. Use info@tapgotech.com & “admin” to login via Dashboard.
 6. Launch Tap&Go to start engaging with customers and collecting valuable feedback.
 
+## Licensing
+
+The Tap&Go system and associated intellectual property are proprietary. Usage and distribution are subject to licensing agreements and restrictions. Please contact [info@tapgotech.com](mailto:info@tapgotech.com) for licensing inquiries.
+
 ## Contact Us
 
 For support, licensing, or further information about implementing Tap&Go in your business, please reach out to us via email at [info@tapgotech.com](mailto:info@tapgotech.com).
-This project was developed over a span of six months, from June 2023 to December 2023.
-
-# Proprietary License
-
-All rights reserved.
-
-The Tap&Go system and associated documentation, images, and other files (the "Software") are the property of Gabriel Brandão and are legally protected. This license governs use of the accompanying Software, and your use of the Software constitutes acceptance of this license.
-
-You may not use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, nor permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-1. All copies of the Software and its documentation must retain all copyright notices and other proprietary legends.
-2. Any use, reproduction, or distribution of the Software must be done with the express written permission of the Author.
-3. Modifications to the Software are strictly prohibited.
-
-This Software is provided by the Author "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the Author be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this Software, even if advised of the possibility of such damage.
 
 ## This project is currently closed
