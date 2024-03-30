@@ -65,7 +65,7 @@ This project was developed over a span of six months, from June 2023 to December
 
 All rights reserved.
 
-The Tap&Go system and associated documentation, images, and other files (the "Software") are the property of [Your Company/Your Name] ("the Author") and are legally protected. This license governs use of the accompanying Software, and your use of the Software constitutes acceptance of this license.
+The Tap&Go system and associated documentation, images, and other files (the "Software") are the property of Gabriel Brandão and are legally protected. This license governs use of the accompanying Software, and your use of the Software constitutes acceptance of this license.
 
 You may not use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, nor permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
