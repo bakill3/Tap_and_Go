@@ -1,5 +1,5 @@
 # Tap&Go: NFC-Based Customer Engagement Platform
-
+![Tap&Go](https://socialify.git.ci/bakill3/Tap_and_Go/image?language=1&owner=1&name=1&stargazers=1&theme=Light)
 ## Introduction
 
 Tap&Go integrates Near Field Communication (NFC) technology to enrich the customer-business interaction. This innovative system empowers businesses with instant customer feedback directly through Google Maps and TripAdvisor. By tapping an NFC-enabled Tap&Go card, customers are directed to review platforms while the system captures crucial data such as IP, operating system, and location, available via a control panel for business owners. The Tap&Go solution is designed for speed, SEO optimization, exceptional design, and robust performance.
@@ -26,6 +26,10 @@ The Tap&Go project was conceived and developed over a six-month period, with a s
 - **Backend**: PHP, MySQL database, with PHPMyAdmin for database management.
 - **Responsive Design**: Bootstrap 5 ensures adaptability to all devices.
 - **SEO**: Configured to the latest guidelines to maximize online presence.
+
+## Videos
+[![Presentation](https://img.youtube.com/vi/S9-oV-CWPD4/maxresdefault.jpg)](https://www.youtube.com/watch?v=S9-oV-CWPD4)
+[![Dashboard Presentation](https://img.youtube.com/vi/xm2Fcq_DZAY/maxresdefault.jpg)](https://www.youtube.com/watch?v=xm2Fcq_DZAY)
 
 ## Setup and Configuration
 
