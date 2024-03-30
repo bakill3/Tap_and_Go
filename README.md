@@ -52,10 +52,6 @@ This upcoming feature is designed to:
 5. Use info@tapgotech.com & “admin” to login via Dashboard.
 6. Launch Tap&Go to start engaging with customers and collecting valuable feedback.
 
-## Licensing
-
-The Tap&Go system and associated intellectual property are proprietary. Usage and distribution are subject to licensing agreements and restrictions. Please contact [info@tapgotech.com](mailto:info@tapgotech.com) for licensing inquiries.
-
 ## Contact Us
 
 For support, licensing, or further information about implementing Tap&Go in your business, please reach out to us via email at [info@tapgotech.com](mailto:info@tapgotech.com).
