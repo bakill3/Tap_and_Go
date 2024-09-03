@@ -3,12 +3,10 @@ include 'ligar_db.php';
 
 $response = ['status' => 'error', 'message' => 'Unknown error.'];
 
-// Check if the id_produto POST parameter is set
 if (isset($_POST['id_produto']) && isset($_POST['qnt'])) {
 	$id = htmlspecialchars(mysqli_real_escape_string($link, $_POST['id_produto']));
 	$qnt = htmlspecialchars(mysqli_real_escape_string($link, $_POST['qnt']));
 
-    // Fetch product details from the database
 	$query = mysqli_query($link, "SELECT * FROM products WHERE id='$id'");
 
 	if (mysqli_num_rows($query) > 0) {
@@ -57,7 +55,6 @@ if (isset($_POST['id_produto']) && isset($_POST['qnt'])) {
 		} else {
 			$itemExists = false;
 			foreach ($_SESSION['cart'] as $key => $item) {
-                // Check both the item_id and qnt_pack
 				if ($item['item_id'] == $id && $item['qnt_pack'] == $qnt) {
 					$_SESSION['cart'][$key]['item_quantity'] += 1;
 					$itemExists = true;
@@ -70,7 +67,6 @@ if (isset($_POST['id_produto']) && isset($_POST['qnt'])) {
 			}
 		}
 
-        // Get the key (index) of the product that was just added
 		$last_added_key = array_key_last($_SESSION['cart']);
 
 		$response = [
@@ -83,7 +79,7 @@ if (isset($_POST['id_produto']) && isset($_POST['qnt'])) {
 				'price' => $price,
 				'item_quantity' => 1,
 				'qnt_pack' => $qnt,
-                'key' => $last_added_key // Add the key to the response
+                'key' => $last_added_key 
             ]
         ];
     } else {

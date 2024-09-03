@@ -98,7 +98,6 @@ if (!empty($_SESSION["cart"])) {
         $price = $item["item_price"];
         $price_in_cents = $price * 100;
         
-        // Construct the line_item and add it to the product_array
         $product_array[] = [
             'quantity' => $quantity,
             'price_data' => [

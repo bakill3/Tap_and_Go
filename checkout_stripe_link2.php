@@ -98,7 +98,6 @@ if (!empty($_SESSION["cart"])) {
         $price = $item["item_price"];
         $price_in_cents = $price * 100;
         
-        // Construct the line_item and add it to the product_array
         $product_array[] = [
             'quantity' => $quantity,
             'price_data' => [
@@ -120,26 +119,24 @@ if (!empty($_SESSION["cart"])) {
 }
 
 if ($currency_format == 'eur' && $user_country == 'Portugal') {
-    $amount = $total * 100; // Convert total amount to cents
+    $amount = $total * 100; 
     try {
         $source = \Stripe\Source::create([
             'type' => 'multibanco',
             'amount' => $amount,
             'currency' => 'eur',
             'owner' => [
-                'email' => 'customer@example.com', // Replace with actual customer email
+                'email' => 'customer@example.com', 
             ],
             'redirect' => [
-                'return_url' => 'http://yourwebsite.com/return.php', // Replace with your return URL
+                'return_url' => 'http://tapgotech.com/return.php', 
             ],
         ]);
 
-        // Redirect customer to Multibanco payment page
         http_response_code(303);
         header('Location: ' . $source->redirect->url);
         exit;
     } catch (Exception $e) {
-        // Handle exception
         echo 'Error: ' . $e->getMessage();
         exit;
     }
